@@ -1,0 +1,113 @@
+/* Basic theme styles */
+body {
+    padding: 16px;
+    font-family: 'Wotfard', sans-serif;
+  }
+  
+  /* Custom fonts */
+  @font-face {
+    font-family: 'Wotfard';
+    src: url('https://josh-bundler.com/fonts/wotfard/wotfard-semibold-webfont.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: fallback;
+  }
+  
+  @font-face {
+    font-family: 'Wotfard';
+    src: url('https://josh-bundler.com/fonts/wotfard/wotfard-medium-webfont.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback;
+  }
+  
+  @font-face {
+    font-family: 'Wotfard';
+    src: url('https://josh-bundler.com/fonts/wotfard/wotfard-regular-webfont.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+  }
+  
+  .wrapper {
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .gradient-preview {
+    aspect-ratio: 2 / 1;
+    min-height: 75px;
+    border-radius: 4px;
+    background-size: cover;
+  }
+  
+  .colors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .color-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .color-wrapper label {
+    display: block;
+  }
+  
+  input[type=color] {
+    width: 75px;
+    height: 75px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .actions button {
+    font-size: 1.125rem;
+    padding: 8px 16px;
+  }
+  
+  /* Reset styles */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+  
