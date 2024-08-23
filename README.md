@@ -2,6 +2,9 @@
 
 A React application that allows users to create and customize linear gradients by adding and removing color stops. Users can pick colors from a color picker and see the gradient update in real-time.
 
+## Deployed Link-
+https://cheerful-toffee-8892ca.netlify.app
+
 
 <img width="623" alt="Screenshot 2024-08-23 164930" src="https://github.com/user-attachments/assets/5d5bf253-99ee-43fb-a477-ec087b23ef5b">
 
