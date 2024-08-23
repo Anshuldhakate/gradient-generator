@@ -6,7 +6,9 @@ A React application that allows users to create and customize linear gradients b
 https://cheerful-toffee-8892ca.netlify.app
 
 
-<img width="623" alt="Screenshot 2024-08-23 164930" src="https://github.com/user-attachments/assets/5d5bf253-99ee-43fb-a477-ec087b23ef5b">
+
+<img width="614" alt="Screenshot 2024-08-23 164930" src="https://github.com/user-attachments/assets/0f992265-01fa-4ce4-8ddf-e443a423c3a0">
+
 
 
 ## Features
